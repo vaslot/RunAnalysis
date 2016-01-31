@@ -7,7 +7,7 @@ File: run_analysis.R
 Author: Vishal Aslot
 Description: This script takes test and train data from the following site and generates an independent tidy dataset as follows:
 
-** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip **
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Step 1: Merges the training and the test sets to create one data set.
 Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
