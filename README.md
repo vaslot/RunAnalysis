@@ -17,7 +17,6 @@ Step 5: From the data set in step 4, creates a second, independent tidy data set
 
 To load the script and run it do the following steps in R:
 
-**> source("run_analysis.R")**
-**> run_analysis()**
+**> source("run_analysis.R"); run_analysis()**
 
 The output is dumped into a text file called **tidy.txt**.
