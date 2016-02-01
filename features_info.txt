@@ -57,13 +57,3 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
-
-The dataset in 'tidy.txt'
-------------------------
-The dataset contains the following columns:
-
-Labels: These are the activity labels
-Subject: Number identifying a test subject between 1 and 30
-variable: This is a feature
-Avg: This is the average or mean of the feature in 'variable' for given activity
-     and test subject.
