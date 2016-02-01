@@ -99,8 +99,11 @@ run_analysis <- function()
         grouped <- group_by (melted, Labels, Subject, variable)
 
         # Generate average by activity and test subjects and print it out
-        result <- summarise(grouped, Avg=mean(value))
-
+        result <- summarise_each(grouped, funs(mean))
+        
+        # Put the data back in original form
+        result <- dcast(result, Labels + Subject ~ variable)
+        
         # Write out the result to a file
         writeResult("tidy.txt", result)
        
